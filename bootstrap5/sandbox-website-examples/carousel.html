@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap Sandbox | Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Carousel</h1>
+
+      <!-- Carousel -->
+      <div class="carousel slide" id="slider">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#slider"
+          ></button>
+          <button data-bs-slide-to="1" data-bs-target="#slider"></button>
+          <button data-bs-slide-to="2" data-bs-target="#slider"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1582559934353-2e47140e7501?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8cGxhY2V8fHx8fHwxNjg4NjY4MjQ3&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800"
+              alt=""
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>
+                If Debugging Is The Process Of Removing Software Bugs, Then
+                Programming Must Be The Process Of Putting Them In.
+              </h5>
+              <p>
+                They don't make bugs like Bunny anymore. Measuring programming
+                progress by lines of code is like measuring aircraft building
+                progress by weight. In order to understand recursion, one must
+                first understand recursion. The perfect project plan is possible
+                if one first documents a list of all the unknowns.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8cGxhY2V8fHx8fHwxNjg4NjY4MjY1&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800"
+              alt=""
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>
+                One Of My Most Productive Days Was Throwing Away 1000 Lines Of
+                Code.
+              </h5>
+              <p>
+                In order to understand recursion, one must first understand
+                recursion. When debugging, novices insert corrective code;
+                experts remove defective code. It's not a bug - it's an
+                undocumented feature. Any fool can write code that a computer
+                can understand. Good programmers write code that humans can
+                understand.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1564401003800-3cd8ced29bbe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8cGxhY2V8fHx8fHwxNjg4NjY4Mjg5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800"
+              alt=""
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>
+                Debugging Is Twice As Hard As Writing The Code In The First
+                Place. Therefore, If You Write The Code As Cleverly As Possible,
+                You Are, By Definition, Not Smart Enough To Debug It.
+              </h5>
+              <p>
+                Inside every large program, there is a small program trying to
+                get out. If something is worth doing once, it's worth building a
+                tool to do it. Programmer - an organism that turns coffee into
+                software. Measuring programming progress by lines of code is
+                like measuring aircraft building progress by weight.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Buttons -->
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div style="margin-top: 350px"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
